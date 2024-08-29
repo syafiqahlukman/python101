@@ -56,3 +56,7 @@ print(lucky_numbers)
 #to reverse the order of the list
 lucky_numbers.reverse()
 print(lucky_numbers)
+
+#to copy
+friends2 = friends.copy()
+print(friends2)
