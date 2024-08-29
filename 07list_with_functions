@@ -1,0 +1,14 @@
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Ali", "Muthu", "Ah Hock", "Aminah", "Roshini", "Mei Ling"]
+
+print(friends[-1])
+#theres a few function that we can use with lists and those functions allow us to like modify the list and get information
+
+#extend - take a list, append another list inside it
+
+friends.extend(lucky_numbers)
+print(friends)
+
+#to add invidiual value to the end of the list
+friends.append("Creed")
+print(friends)
