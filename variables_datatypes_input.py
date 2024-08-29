@@ -2,8 +2,6 @@
 customer_name = input("Enter customer name: ")
 customer_email = input("Enter customer email: ")
 
-
-
 item_name = input("Enter item name: ") # Prompts user to enter the item's name and stores it in the variable.
 item_price = float(input("Enter price of one item: "))  #  prompts user to enter, converts the input to float, and stores it in variable.
 item_quantity = int(input("Enter quantity of items: "))  # prompts user to enter, converts the input to integer, and stores it in variable.
