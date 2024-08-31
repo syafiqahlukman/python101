@@ -16,7 +16,7 @@ servers = [("192,168.1.1", "server1.com", "active"),
 #display list of servers
 def display_servers(servers): #define a function where we told python the instruction of this particular program
     print("List of servers:") #the function prints a header
-    for server in servers: #then loops through each server in the list and print the ip, hostname, status
+    for server in servers: #for - start a loop that perform over a sequence (like list) through each server in the list and print the ip, hostname, status
         print(f"IP Address: {server[0]}, Hostname: {server[1]}, Status: {server[2]}")
     print()
 display_servers(servers)
